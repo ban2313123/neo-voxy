@@ -1,5 +1,8 @@
 pluginManagement {
     repositories {
+        // Добавьте эту строку:
+        maven { url = "https://maven.minecraftforge.net/" } 
+        
         maven {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
